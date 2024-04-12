@@ -6,6 +6,7 @@ print(" 4. sair\n ")
 
 opcao_escolhida = input("escolha uma opcão: ")
 print(f"voce escolheu {opcao_escolhida} ")
+print("")
 
       
 
