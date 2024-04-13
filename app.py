@@ -1,3 +1,5 @@
+import os
+
 print("⟆Ꭿᑲᗝᖇ ∈ⲭᕈᖇ∈⟆⟆\n")
 print(" 1. cadastrar restaurante ")
 print(" 2. listar restaurantes ")
@@ -7,8 +9,11 @@ print(" 4. sair\n ")
 opcao_escolhida = int(input("escolha uma opcão: "))
 # opcao_escolhida = int(opcao_escolhida)
 
+def finalizar_app():
+    os.system("clear")
+    # os.system("clear") para o mac
 
-
+    print("finalizando o app")
 
 
 
@@ -19,4 +24,4 @@ elif opcao_escolhida == 2:
 elif opcao_escolhida == 3:
     print("ativar restaurante")
 else:
-    print("encerrar o programa")     
+    finalizar_app()   
