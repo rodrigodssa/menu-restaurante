@@ -1,3 +1,22 @@
+# Para imprimir a frase, basta utilizar a função print() com aspas simples ou duplas entre a sentença:
+print('python na Escols de programação. ')
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # para verificar se o número é impar ou par, você pode fazer essa estrutura condicional:
 
 numero = int(input('Digite um número: '))
@@ -29,6 +48,24 @@ senha = input('Digite a senha: ')
 if usuario == usuario_correto and senha == senha_correta:
     print('login bem sucedido! ')
 print('credencias invalidas. tente novamente.')    
+
+
+# Para verificar onde o ponto está localizado no plano cartesiano, você pode utilizar a seguinte estrutura:
+
+x = float(input('Digite a coordenada x: '))
+y = float(input('Digite a coordenada y: '))
+
+if x > 0 and y > 0:
+    print('O ponto está no primeiro quadrante. ')
+elif x < 0 and y > 0:
+    print('O ponto está no segundo quadrante. ')
+elif x < 0 and y < 0:
+    print('O ponto está no terceiro quadrante. ')
+elif x > 0 and y < 0:
+    print('O ponto está no quarto quadrante. ')
+else:
+    print('O ponto está sobre um eixo ou na origem. ')
+
 
 
 
