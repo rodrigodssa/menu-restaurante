@@ -46,3 +46,33 @@ elif x > 0 and y < 0:
     print('O ponto está no quarto quadrante. ')
 else:
     print('O ponto está sobre um eixo ou na origem. ')
+
+
+# condicionais if elif else
+
+opcao_escolhida = int('input'('Escolha uma opção: '))
+# opcao_escolhida = int(opcao_escolhida)
+
+if opcao_escolhida == 1:
+    print('Cadastrar restaurante')
+elif opcao_escolhida == 2:
+    print('Listar restaurantes')
+elif opcao_escolhida == 3:
+    print('Ativar restaurante')
+else:
+    print('Finalizar app')
+
+# Criando funções e fazendo import
+
+def exibir_nome_do_programa():
+    print("""SABOR EXPRESS
+""")
+    
+def exibir_opcoes():
+    print('1. cadastrar restaurante')
+    print('2. Listar restaurante')
+    print('3. Ativar restaurante')
+    print('4. sair\n')
+
+def finalizar_app():
+    print
