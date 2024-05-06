@@ -28,6 +28,8 @@ def escolher_opcao():
         print("ativar restaurante")
     else:
         finalizar_app() 
+        os.system("clear") # funcao para limpar o terminal no mac
+        print("Finalizando o app\n")
 
 def main ():
     exibir_nome_do_programa()
