@@ -16,10 +16,10 @@ def finalizar_app():
     # os.system("clear") para o mac
     print("finalizando o app\n")    
 
-def escolher_opcao():
+def escolher_opcao(): 
+
     opcao_escolhida = int(input("escolha uma opcão: "))
     # opcao_escolhida = int(opcao_escolhida)
-
     if opcao_escolhida == 1:
         print("cadastrar restaurante")
     elif opcao_escolhida == 2: 
